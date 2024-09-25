@@ -1,0 +1,187 @@
+
+/* header */
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+section 
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 1000;
+}
+
+section 
+nav 
+.logo 
+img{
+    width: 4.5rem;
+    cursor: pointer;
+    margin: .5rem 0;
+}
+
+section 
+nav 
+ul{
+    list-style: none;
+}
+
+section 
+nav 
+ul 
+li{
+    display: inline-block;
+    margin: 0 0.8rem;
+}
+
+section 
+nav 
+ul 
+li 
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+
+/* } this for thee underline effect during hover */
+section 
+nav 
+ul 
+li 
+a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    transition: 0.2s linear;
+}
+
+section 
+nav 
+ul 
+li 
+a:hover::after{
+    width: 100%;
+}
+
+section 
+nav 
+ul 
+li 
+a:hover{
+    color: #fac031;
+}
+
+section  
+nav 
+.icon 
+i{
+    font-size: 1rem;
+    color: #000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section 
+nav 
+.icon 
+i:hover{
+    color: #fac031;
+}
+
+
+
+#hamburger-nav {
+    display: none;
+  }
+  
+  /* .hamburger-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+  } */
+
+/**media querry */
+
+@media (max-width: 415px){
+ 
+section 
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 1000;
+    border: 0px solid red;
+}
+
+
+section 
+nav 
+.logo 
+img{
+    margin-left: -2rems;
+    width: 10rem;
+    cursor: pointer;
+    margin: 1.5rem 0;
+    
+}
+
+section 
+nav 
+ul{
+    display: none;
+}
+
+section  
+nav 
+.icon 
+{
+    display: none;
+   
+}
+
+
+
+#hamburger-nav {
+    position: relative;
+    display: inline-block;
+  }
+
+  #hamburger-nav
+  i{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        font-size: 3.5rem;
+        margin-left: 20rem;
+  }
+  }
+
+
