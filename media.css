@@ -593,6 +593,194 @@ i{
 
 
 
+/*Review*/
+
+.review{
+    width: 100%;
+    height: 300vh;
+    padding: 70px 0;
+    border: 2px solid red;
+}
+
+.review 
+h1{
+    font-size: 4.5rem;
+    margin-top: -4rem;
+}
+
+.review 
+h1 
+span{
+    margin-left: 15px;
+    color: #fac031;
+    font-family: mv boli;
+}
+
+.review 
+h1 
+span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    position: relative;
+    bottom: 15px;
+    display: block;
+}
+
+.review 
+.review_box{
+    border: 2px solid red;
+    width: 90%;
+    height: 310vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 70px auto;
+}
+
+.review 
+.review_box 
+.review_card{
+
+    width: 155vw;
+    height: 120vh;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.review 
+.review_box 
+.review_card:hover{
+    height: 120vh;
+    transition: 0.3s;
+
+
+}
+
+.review 
+.review_box 
+.review_card 
+.review_profile{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 0.3s;
+}
+
+.review 
+.review_box 
+.review_card:hover 
+.review_profile{
+    transform: translateY(-70px);
+}
+
+.review 
+.review_box 
+.review_card 
+.review_profile 
+img{
+    width:  13rem;
+    height: 13rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 5px solid #cccccc;
+}
+
+
+.review 
+.review_box 
+.review_card 
+.review_text{
+    text-align: center;
+}
+
+.review 
+.review_box 
+.review_card 
+.review_text 
+.name{
+    margin-top: 5px;
+    color: #000;
+    transition: 0.3s;
+}
+
+.review 
+.review_box 
+.review_card:hover 
+.review_text 
+.name{
+    transform: translateY(-65px);
+}
+
+.review 
+.review_box 
+.review_card
+.review_text 
+.review_icon{
+    color: #fac031;
+    transition: 0.3s;
+    margin-top: 5px;
+
+}
+
+.review 
+.review_box 
+.review_card:hover 
+.review_text 
+.review_icon{
+    transform: translateY(-55px);
+}
+
+.review 
+.review_box 
+.review_card 
+.review_text 
+.review_social 
+i{
+    margin: 5px 1px;
+    font-size: 1rem;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.review 
+.review_box 
+.review_card:hover 
+.review_text 
+.review_social i{
+    opacity: 1;
+    transform: translateY(-40px);
+}
+
+.review 
+.review_box 
+.review_card 
+.review_text 
+p{
+    text-align: center;
+    line-height: 2rem;
+    transition: 0.3s;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+
+
+}
+
+.review .review_box 
+.review_card:hover 
+.review_text 
+p{
+    margin-top: 5px;
+}
+
+
+
+
 
       }
     
