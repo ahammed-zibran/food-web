@@ -203,20 +203,4 @@ h3{
 /** media querry */
 
 
-@media (max-width: 767px){
-    .menu
-    .menu_box{
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-        width: 80%;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 1.8rem;
-      
-    }
-    
-
-}
 
