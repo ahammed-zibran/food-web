@@ -91,7 +91,88 @@ i{
 /** media querry */
 
 
-@media (max-width: 415px){
+@media (max-width: 705px){
     
+   
 
+section 
+.main{
+    /* left: 50%; */
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    /* position: absolute; */
+    height: 250vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section 
+.main 
+.men_text 
+h1{
+    width: 400vw;
+    font-size: 4.5rem;
+    position: relative;
+    top: -10rem;
+    padding-left: 5rem;
+}
+
+section 
+.main 
+.men_text 
+h1 
+span{
+    margin-left: 15px;
+    line-height: 2rem;
+    font-size: 4rem;
+} 
+
+section 
+.main 
+.main_image 
+img{
+    width: 50rem;
+    left: 0rem;
+}
+
+section 
+p{
+    font-size: 1.9rem;
+    width: 52rem;
+    left: 6rem;
+    bottom: 10rem;
+    line-height: 2.5rem;
+    margin-top: 3rem;
+}
+
+section 
+.main_btn{
+    margin-top: -4rem;
+
+    background: #fac031;
+    position: relative;
+    left: 6rem;
+    bottom: 3.5rem;
+    width: 15rem;
+    cursor: pointer;
+    padding: 40px 55px;
+}
+
+
+section 
+.main_btn 
+a{
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
+
+
+    
 }
